@@ -65,6 +65,7 @@ environment in case of a forced and buggy bootloader.
 - LUCKY7
 - NOBLELTE
 - R0Q
+- R8Q
 - R8S
 - STARLTE
 - X1S

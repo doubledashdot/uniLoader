@@ -221,12 +221,19 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Samsung Galaxy S22
 
+	config SAMSUNG_R8Q
+		bool "Support for Samsung Galaxy S20 FE Snapdragon"
+		default n
+		depends on SM8250
+		help
+		  Say Y if you want to include support for Samsung Galaxy S20 FE Snapdragon
+
 	config SAMSUNG_R8S
-		bool "Support for Samsung Galaxy S20 FE"
+		bool "Support for Samsung Galaxy S20 FE Exynos"
 		default n
 		depends on EXYNOS_990
 		help
-		  Say Y if you want to include support for Samsung Galaxy S20 FE
+		  Say Y if you want to include support for Samsung Galaxy S20 FE Exynos
 
 	config SAMSUNG_STARLTE
 		bool "Support for Samsung Galaxy S9"
